@@ -3,7 +3,7 @@ body {
   min-height: 100vh;
 }
 
-img {
+img.main {
   height: 225px;
   width: 500px;
   object-fit: cover;
@@ -78,3 +78,60 @@ a {
   padding: 8px 35px 8px 35px;
   margin-top: 18px;
 }
+
+.information {
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: 1000;
+  color: #1F2937;
+  margin: 50px 0px 50px 0px;
+}
+
+img.sub {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  object-position: 75% 50%; 
+  border-radius: 10px;
+}
+
+img.sub2 {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  object-position: 25% 50%; 
+  border-radius: 10px;
+}
+
+img.sub3 {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  object-position: 25% 50%; 
+  border-radius: 10px;
+}
+
+img.sub4 {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  object-position: 25% 50%; 
+  border-radius: 10px;
+}
+
+.pic-cap {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: rgb(74, 74, 74);
+  width: 150px;
+  text-align: center;
+}
+
+.info-and-pics {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  }
+
