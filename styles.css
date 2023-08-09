@@ -160,8 +160,14 @@ img.sub4 {
   font-family: 'Roboto', sans-serif;
   font-size: 22px;
   font-weight: bolder;
-  text-align: end;
-  margin-right: 580px;
+  margin-left: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.section-d {
+  display: flex;
+  justify-content: center;
 }
 
 .call-to-action-title {
@@ -199,7 +205,7 @@ img.sub4 {
   align-items: center;
   gap: 280px;
   background-color: #3882F6;
-  margin: 100px 350px 100px 445px;
+  margin: 100px 350px 100px 350px;
   border-radius: 10px;
 }
 
@@ -215,3 +221,4 @@ img.sub4 {
   font-family: 'Roboto', sans-serif;
   color: #F9FAF8;
 }
+
